@@ -1,1 +1,127 @@
-<p>tools works!</p>
+<section id="footer">
+    <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-4 col-md-4 divsomos">
+                <h3 class="titulouno ">HERRAMIENTAS</h3>
+                <p class="line">______________________</p>
+                <h4 id="titulodos">NOVOCLICK</h4>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 texttomato">
+                    <a class="somos">
+                        La magia de nuestras recetas de los platos sucede gracias a nuestro equipo de chefs digitales, son más de 50 profesionales con compromiso de alta calidad, quienes son referentes de alto conocimiento experiencial de las siguientes herramientas Novoclick.
+                    </a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="main">
+        <ul class="cards" >
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img></div>
+              <div class="card_content">
+                <p class="card_text" ></p>
+                <button class="btn card_btn">+</button>
+              </div>
+            </div>
+          </li>
+         
+        </ul>
+      </div>  -->
+      <div class="container-fluid" >
+
+        <!--Carousel Wrapper-->
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!--Indicators-->
+            <ol *ngFor="let cards of card" class="carousel-indicators">
+                <li   data-target="#carousel" data-slide-to={{cards.id}} class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+    
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox" >
+    
+                <!--First slide-->
+                <div class="carousel-item active"  >
+                    <div class="row" >
+    
+                        <div class="col-md-4">
+                            <img src="../../../../assets/images/herramientas/Mesa de trabajo 51.png" alt="Card image cap">
+                            <p></p>
+                        </div>
+    
+                        <div class="col-md-4">
+                            <img src="https://placehold.it/600x400/fd007b/ffffff?text=2" alt="Card image cap">
+                        </div>
+    
+                        <div class="col-md-4">
+                            <img src="https://placehold.it/600x400/fd007b/ffffff?text=3" alt="Card image cap">
+                        </div>
+                    </div>
+    
+                </div>
+                <!--/.First slide-->
+    
+                <!--Second slide-->
+                <div class="carousel-item">
+    
+                    <div class="row">
+                        <div class="col-md-4">
+    
+                            <img src="https://placehold.it/600x400/fd007b/ffffff?text=4" alt="Card image cap">
+                        </div>
+    
+                        <div class="col-md-4">
+                            <img src="https://placehold.it/600x400/fd007b/ffffff?text=5" alt="Card image cap">
+                        </div>
+    
+                        <div class="col-md-4">
+                            <img src="https://placehold.it/600x400/fd007b/ffffff?text=6" alt="Card image cap">
+                        </div>
+                    </div>
+    
+                </div>
+                <!--/.Second slide-->
+    
+                <!--Third slide-->
+                <div class="carousel-item">
+    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://placehold.it/600x400/fd007b/ffffff?text=7" alt="Card image cap">
+                        </div>
+    
+                        <div class="col-md-4">
+                            <img src="https://placehold.it/600x400/fd007b/ffffff?text=8" alt="Card image cap">
+                        </div>
+    
+                        <div class="col-md-4">
+                            <img src="https://placehold.it/600x400/fd007b/ffffff?text=9" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <!--/.Third slide-->
+    
+            </div>
+            <!--/.Slides-->
+    
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+    
+    </div>
+      
+</section>
+
+
+
