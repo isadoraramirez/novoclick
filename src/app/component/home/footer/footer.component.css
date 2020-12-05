@@ -1,0 +1,17 @@
+    .footer{
+        background-color:#074173;
+        width: 100%;
+        margin: auto;
+
+    }
+    .left{
+    text-align:left;
+    float:left;
+    }
+    .right{
+    float:right;
+    text-align:right;
+    }
+    .centered{
+    text-align:center;
+    }
